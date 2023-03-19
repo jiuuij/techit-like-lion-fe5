@@ -1,0 +1,369 @@
+body{
+    background-color: #EAE8FE;
+    width: 1920px;
+    height: 963px;
+
+}
+
+.logo{
+    Width: 386px;
+    Height:164.12px;
+    background: url(./img/logo.png) no-repeat 0 0 / cover;
+    margin: 0 auto 43px;
+}
+
+.all{
+    display: grid;
+    grid-template-areas: 
+    "a b"
+    "a c"
+    "a d";
+    justify-content: center;
+    align-items: center;
+}
+
+[class^="wrap"]{
+    background-color: #FFFFFF;
+}
+
+.wrap1{
+    grid-area: a;
+    width: 360px;
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-right: 28px;
+
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+[class^="cola-"]{
+    width: 94px;
+    height: 130px;
+    border-radius: 10px;
+    font-size: 9px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    margin: 12px 0px 0px 0px;
+    /* 피그마대로 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 하면 다른디? */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.cola-1,
+.cola-5 {   
+    border: 3px solid #6327FE;
+    box-shadow: 0px 0px 0px;
+}
+
+.box img{
+    margin: 11px 20px auto;
+
+}
+
+.name{
+    margin: 6px auto 7px;
+}
+
+.box-button{
+    width: 70px;
+    height: 22px;
+    background: #6327FE;
+    border: none;
+    border-style:none;
+    border-radius: 50px;
+    color: #ffffff;   
+    font-size: 12px;
+}
+
+.cola-2 {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.soldout-bg{
+    position: absolute;
+    top: -11px;
+    left:-20px;
+
+}
+
+.soldout-name{
+    position: absolute;
+    top: 25px;
+    left: -5px;
+    transform: rotate(-17.97deg);
+}
+
+
+.comment{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+[class^="comment-"]{
+    width: 200px;
+    height: 33px;
+    border-radius: 8px;
+
+}
+
+.comment-balance{
+    background: #EAE8FE;
+    font-size: 14px;
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.u-button{
+    width: 94px;
+    height: 33px;
+    background: #FFFFFF;
+    border: none;
+    border-style:none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+    color: #000000;
+}
+
+.comment-input{
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    font-size: 13px;
+}
+
+.select1-out{
+    width: 360px;
+    margin-top: 11px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;  
+}
+    
+
+.select1{
+    width: 200px;
+    height: 106px;
+    background: #EAE8FE;
+    border: 1.5px solid #BDBDBD;
+    border-radius: 10px;
+    font-size: 9px;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select1-in{
+    width: 170px;
+    height: 46px;
+    background: #FFFFFF;
+    border: none;
+    border-style:none;
+    border-radius: 5px;
+    font-size: 9px;
+    color: #333333;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+
+.select1-name{
+    margin-left: -20px;
+}
+
+.scrollbar { 
+    width: 200px;
+    height: 106px;
+    overflow-y: scroll;
+
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 79px;
+
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: #FFFFFF; 
+    border: 2px solid #EAE8FE; 
+    border-radius: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    background-color: transparent;
+
+}
+
+.scrollbar::-webkit-scrollbar-button:vertical:start:decrement,
+.scrollbar::-webkit-scrollbar-button:vertical:start:increment,
+.scrollbar::-webkit-scrollbar-button:vertical:end:decrement  
+{
+    display: block;
+    height: 5px;
+}
+[CLASS$=in] img{
+    Width: 17.93px;
+    Height: 32.93px;
+    margin-left: 10px;
+}
+
+.obtain{
+    width: 94px;
+    height: 106px;
+    background: #6327FE;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.wrap2{
+    grid-area: b;
+    width: 360px;
+    height: 50px;
+    background: #FFFFFF;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.wrap3{
+    grid-area: c;
+    width: 360px;
+    height: 474px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.select2{
+    width: 306px;
+    height: 364px;
+    background: #EAE8FE;
+    border: 1.5px solid #BDBDBD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y:scroll;
+}
+
+.select2 .scrollbar { 
+    width: 306px;
+    height: 364px;
+    overflow-y: scroll;
+}
+
+.select2-in{
+    width: 276px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 9px;
+    color: #333333;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.select2-in:first-child{
+    margin-top: 12px;
+}
+
+.select2-name{
+    margin-left: -120px;
+}
+
+.number{
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000000;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.comment-total{
+    width: 306px;
+    height: 32px;
+    background: #EAE8FE;
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sum{
+    font-size: 12px;
+    color: #000000;
+}
+
+.wrap4{
+    grid-area:d;
+    width: 360px;    
+}
+
+.sum{
+    text-align: right;
+    margin-right: 12px;
+}
+
+
+@media (max-width:360px) and (max-height:1141px) {
+    .logo{
+        width: 166px;
+        height: 71.12px;
+    }
+    
+    body {
+        width: 360px;
+        height: 1141px;    
+        background-color: #FFFFFF;
+    }    
+
+    .all{
+        grid-template-areas: 
+    "a"    
+    "b"
+    "c"
+    "d";
+    margin-left: 20px;
+}    
+}
+
