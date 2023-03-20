@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENDING MACHINE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./normalize.css">
+
+
+</head>
+
+<body>
+    <!-- 로고 -->
+    <h1 class="logo"></h1>
+    <!-- //로고 -->
+    <!-- 벤딩머신  -->
+    <div class="all">
+        <section class="wrap1">
+            <div class="box">
+                <div class="cola-1">
+                    <img src="./img/original.png" alt="">
+                    <p class="name">Original_Cola</p>
+                    <button type="button" class="box-button">1000원</button>
+                </div>
+                <div class="cola-2">
+                    <div class="soldout">
+                        <img src="./img/soldout-bg.png" alt="" class="soldout-bg">
+                        <img src="./img/soldout-name.png" alt="" class="soldout-name">
+                    </div>
+                    <img src="./img/violet.png" alt="">
+                    <p class="name">Violet_Cola</p>
+                    <button type="button" class="box-button">1000원</button>
+                </div>
+                <div class="cola-3">
+                    <img src="./img/yellow.png" alt="">
+                    <p class="name">Yellow_Cola</p>
+                    <button type="button" class="box-button">1000원</button>
+                </div>
+                <div class="cola-4">
+                    <img src="./img/cool.png" alt="">
+                    <p class="name">Cool_Cola</p>
+                    <button type="button" class="box-button">1000원</button>
+                </div>
+                <div class="cola-5">
+                    <img src="./img/green.png" alt="">
+                    <p class="name">Green_Cola</p>
+                    <button type="button" class="box-button">1000원</button>
+                </div>
+                <div class="cola-6">
+                    <img src="./img/orange.png" alt="">
+                    <p class="name">Orange_Cola</p>
+                    <button type="button" class="box-button">1000원</button>
+                </div>
+            </div>
+            <!-- //벤딩머신  -->
+
+            <!-- 메세지들 -->
+            <div class="comment">
+                <p class="comment-balance">잔액 : <strong>1000원</strong></p>
+                <button type="button" class="u-button">거스름돈 반환</button>
+                <input placeholder="입금액 입력" class="comment-input">
+                <button type="button" class="u-button">입금</button>
+            </div>
+            <!-- //메세지들 -->
+
+
+            <!-- 선택화면 -->
+            <div class="select1-out">
+                <div class="select1 scrollbar">
+                    <div class="select1-in">
+                        <img src="./img/original.png" alt="">
+                        <p class="select1-name">Original_Cola</p>
+                        <p class="number">1</p>
+                    </div>
+                    <div class="select1-in">
+                        <img src="./img/green.png" alt="">
+                        <p class="select1-name">Green_Cola</p>
+                        <p class="number">2</p>
+                    </div>
+
+                </div>
+                <button type="button" class="u-button obtain"><strong>획득</strong></button>
+            </div>
+        </section>
+        <!-- //선택화면 -->
+
+        <!-- 소지금 -->
+        <section class="wrap2">
+            <p class="comment-total">소지금 : <strong>25,000원</strong></p>
+        </section>
+        <!-- //소지금 -->
+
+
+        <!-- 획득한 음료 -->
+        <section class="wrap3">
+            <p><strong>획득한 음료</strong></p>
+            <div class="select2 scrollbar">
+                <div class="select2-in">
+                    <img src="./img/original.png" alt="">
+                    <p class="select2-name">Original_Cola</p>
+                    <p class="number">1</p>
+                </div>
+                <div class="select2-in">
+                    <img src="./img/green.png" alt="">
+                    <p class="select2-name">Green_Cola</p>
+                    <p class="number">2</p>
+                </div>
+                <div class="select2-in">
+                    <img src="./img/orange.png" alt="">
+                    <p class="select2-name">Orange_Cola</p>
+                    <p class="number">1</p>
+                </div>
+                <div class="select2-in">
+                    <img src="./img/violet.png" alt="">
+                    <p class="select2-name">Violet_Cola</p>
+                    <p class="number">5</p>
+                </div>
+            </div>
+            <!-- //획득한 음료 -->
+
+            <!-- 총금액 -->
+            <div class="wrap4">
+                <p class="sum">총금액 : 9000원</p>
+            </div>
+            <!-- //총금액 -->
+
+        </section>
+    </div>
+</body>
+
+</html>
