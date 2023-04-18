@@ -1,6 +1,6 @@
-const inputBox = document.getElementById("input");
-const addBtn = document.getElementById("button");
-const addList = document.getElementById("newList");
+const inputBox = document.getElementsByClassName("input");
+const addBtn = document.getElementsByClassName("button");
+const addList = document.getElementsByClassName("newList");
 
 addBtn.addEventListener("click", function() {
     const list = document.createElement("li");
