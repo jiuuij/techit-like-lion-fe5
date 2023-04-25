@@ -35,6 +35,7 @@ function saveNote() {
     document.getElementById("content").value = "";
 }
 
+
 function list() {
     const display = document.getElementById("display");
     display.innerHTML = "";
@@ -79,3 +80,4 @@ function remove() {
     localStorage.setItem("allMemo", JSON.stringify(allMemo));
     list();
 }
+
