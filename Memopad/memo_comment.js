@@ -62,7 +62,7 @@ function list() {
         const saveContent = document.createElement("p");
         // saveId를 선언할 때 p태그를 만들어 반환
         const saveId = document.createElement("p");
-        // deleteMomoBtn을 선언할 때 button태그를 만들어 반환
+        // deleteMemoBtn을 선언할 때 button태그를 만들어 반환
         const deleteMemoBtn = document.createElement("button");
 
 
