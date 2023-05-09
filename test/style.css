@@ -1,0 +1,66 @@
+body{
+    background: linear-gradient(to right,#F0F4FF,#A5B6EE);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: Pretendard Bold;
+}
+
+.logo{
+    Width: 244px;
+    Height: 48px;
+    background: url(./weniv-logo@2x.png) no-repeat center;
+    padding: 50px;
+}
+.timer {
+    Width: 400px;
+    Height: 360px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background: linear-gradient(to bottom,#5572BB,#374B7C);
+    box-shadow: 20px 20px 20% #374B7C ;
+}
+
+h1 {
+    color: #fff;
+    font-size: 24px;
+
+}
+
+[class^=line] {
+    width:312px;
+    height: 1px;
+    margin: 1px 0px;
+}
+
+.line { 
+    background: #3D538A;
+}
+
+.line-2 {
+    background:#5B75B4;
+}
+.des {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:#A5B6EE;
+    font-size: 12px;
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+[class^=t-] {
+    width:80px;
+    height:80px;
+    background: linear-gradient(to bottom,#5572BB,#374B7C);
+    color: #fff;
+    font-size:40px;
+}
